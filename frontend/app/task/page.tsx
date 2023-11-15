@@ -1,6 +1,6 @@
 "use client"
 import { useSearchParams } from "next/navigation";
-import { API } from "../components/constants/api";
+import { API } from "../constants/api";
 import { ApiCall, callAPI } from "../helpers/ApiCall";
 import { TaskItem } from "../types/task";
 import { useEffect, useState } from "react";

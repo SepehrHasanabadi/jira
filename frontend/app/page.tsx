@@ -1,8 +1,8 @@
 'use client'
 import Link from 'next/link';
 import TaskList from './components/TaskList';
-import { API } from './components/constants/api';
-import { TASK } from './components/constants/routes';
+import { API } from './constants/api';
+import { TASK } from './constants/routes';
 import { ApiCall, callAPI } from './helpers/ApiCall';
 import { TaskItem } from './types/task';
 

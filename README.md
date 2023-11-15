@@ -10,7 +10,7 @@ Users will perform CRUD operations, especially listing tasks and filtering them 
 We may have 1 million or more tasks in one company.
 ```
 
-We opted for Elasticsearch as our database solution due to its ability to efficiently handle a large volume of tasks—up to one million, to be precise—each equipped with multiple custom fields. To streamline data retrieval and circumvent the need for repetitive joins between the task and custom fields tables, we leveraged a non-relational database approach.
+We opted for Elasticsearch as our database solution due to its ability to efficiently handle a large volume of tasks up to one million, to be precise each equipped with multiple custom fields. To streamline data retrieval and circumvent the need for repetitive joins between the task and custom fields tables, we leveraged a non-relational database approach.
 
 We can leverage Elasticsearch's powerful search query capabilities to enhance our functionality. To run locally, initiating the command `docker-compose up -d` is essential. This command not only starts Elasticsearch but also launches the Kibana service, allowing us to monitor the data.
 
@@ -18,3 +18,7 @@ We can leverage Elasticsearch's powerful search query capabilities to enhance ou
 For the frontend, we harnessed the power of the Next.js framework complemented by the versatility of Tailwind CSS.
 
 To initiate the backend, utilize the `launch.json` within the VSCode file, specifically tailored for the VSCode editor. Meanwhile, executing `npm run dev` brings the frontend to life. It's imperative to copy the `.env-example` file to the project's root, renaming it as `.env` for proper configuration.
+
+![alt text](https://github.com/SepehrHasanabadi/jira/blob/main/images/add.png)
+![alt text](https://github.com/SepehrHasanabadi/jira/blob/main/images/update.png)
+![alt text](https://github.com/SepehrHasanabadi/jira/blob/main/images/list.png)

@@ -1,5 +1,5 @@
 "use client"
-import { API } from '@/app/components/constants/api';
+import { API } from '@/app/constants/api';
 import { callAPI } from '@/app/helpers/ApiCall';
 import { TaskStatus } from '@/app/types/task';
 import { useState } from 'react';
